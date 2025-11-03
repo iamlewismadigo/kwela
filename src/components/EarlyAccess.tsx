@@ -45,10 +45,10 @@ export default function EarlyAccess() {
   };
 
   return (
-    <section id="early-access" className="py-20 bg-gradient-to-br from-[#007C89] via-[#008795] to-[#00A3A3] relative overflow-hidden">
+    <section id="early-access" className="py-20 bg-gradient-to-br from-[#FF9500] via-[#FFA500] to-[#FFB84D] relative overflow-hidden">
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 right-10 w-72 h-72 bg-[#FFC300] rounded-full filter blur-3xl"></div>
-        <div className="absolute bottom-10 left-10 w-72 h-72 bg-[#FFC300] rounded-full filter blur-3xl"></div>
+        <div className="absolute top-10 right-10 w-72 h-72 bg-[#007C89] rounded-full filter blur-3xl"></div>
+        <div className="absolute bottom-10 left-10 w-72 h-72 bg-[#007C89] rounded-full filter blur-3xl"></div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
@@ -74,7 +74,7 @@ export default function EarlyAccess() {
             </p>
             <button
               onClick={() => setStatus('idle')}
-              className="text-[#007C89] font-semibold hover:underline"
+              className="text-[#FF9500] font-semibold hover:underline"
             >
               Sign up another person
             </button>
@@ -98,7 +98,7 @@ export default function EarlyAccess() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#007C89] focus:outline-none transition-colors"
+                    className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#FF9500] focus:outline-none transition-colors"
                     placeholder="Enter your name"
                   />
                 </div>
@@ -117,7 +117,7 @@ export default function EarlyAccess() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#007C89] focus:outline-none transition-colors"
+                    className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#FF9500] focus:outline-none transition-colors"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -135,7 +135,7 @@ export default function EarlyAccess() {
                     value={formData.country}
                     onChange={handleChange}
                     required
-                    className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#007C89] focus:outline-none transition-colors appearance-none bg-white"
+                    className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#FF9500] focus:outline-none transition-colors appearance-none bg-white"
                   >
                     <option value="">Select your country</option>
                     <option value="Nigeria">Nigeria</option>
@@ -162,7 +162,7 @@ export default function EarlyAccess() {
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className="w-full bg-gradient-to-r from-[#007C89] to-[#00A3A3] text-white py-4 rounded-xl font-semibold text-lg hover:shadow-xl transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-[#FF9500] to-[#FFA500] text-white py-4 rounded-xl font-semibold text-lg hover:shadow-xl transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
               >
                 {status === 'loading' ? (
                   <>

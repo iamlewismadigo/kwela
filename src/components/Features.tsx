@@ -1,30 +1,30 @@
-import { Brain, Target, TrendingUp, Users } from 'lucide-react';
+import { Brain, Target, TrendingUp, CreditCard } from 'lucide-react';
 
 export default function Features() {
   const features = [
     {
-      icon: Brain,
-      title: 'Smart Budgeting',
-      description: 'AI-powered tracking that learns your spending patterns and helps you stay on budget effortlessly.',
-      gradient: 'from-[#007C89] to-[#00A3A3]',
+      icon: CreditCard,
+      title: 'Zero Ecosystem Transaction Fees',
+      description: 'Send and receive money within Kwela with zero fees. Keep more of what you earn.',
+      gradient: 'from-[#FF9500] to-[#FFA500]',
     },
     {
       icon: Target,
-      title: 'Goals & Savings',
-      description: 'Set personalized saving plans for your dreams. Track progress and celebrate milestones with gamified rewards.',
-      gradient: 'from-[#FFC300] to-[#FFD700]',
+      title: 'Goals & Savings with VCC',
+      description: 'Set personalized saving plans and get a virtual card for secure global payments. Shop anywhere, anytime.',
+      gradient: 'from-[#FF9500] to-[#FFB84D]',
+    },
+    {
+      icon: Brain,
+      title: 'Kwela AI as Your Financial Partner',
+      description: 'Personalized financial guidance powered by AI. Get smart recommendations tailored to your goals and habits.',
+      gradient: 'from-[#FF9500] to-[#FFC300]',
     },
     {
       icon: TrendingUp,
-      title: 'Kwela Insights',
-      description: 'Real-time financial advice tailored to your habits. Get actionable insights to grow your wealth smarter.',
-      gradient: 'from-[#007C89] to-[#FFC300]',
-    },
-    {
-      icon: Users,
-      title: 'Community',
-      description: 'Learn from peers, share tips, and grow together. Join a movement of financially savvy young Africans.',
-      gradient: 'from-[#00A3A3] to-[#007C89]',
+      title: 'Minimal Cross-Ecosystem Fees',
+      description: 'Seamless transactions across networks with minimal fees. Move your money freely and affordably.',
+      gradient: 'from-[#FF9500] to-[#FF8C00]',
     },
   ];
 

@@ -22,17 +22,17 @@ export default function Footer() {
           <nav className="flex flex-wrap justify-center gap-6 text-sm">
             <button
               onClick={() => scrollToSection('about')}
-              className="text-gray-400 hover:text-[#FFC300] transition-colors"
+              className="text-gray-400 hover:text-[#FF9500] transition-colors"
             >
               About
             </button>
-            <a href="#" className="text-gray-400 hover:text-[#FFC300] transition-colors">
+            <a href="#" className="text-gray-400 hover:text-[#FF9500] transition-colors">
               Privacy
             </a>
-            <a href="#" className="text-gray-400 hover:text-[#FFC300] transition-colors">
+            <a href="#" className="text-gray-400 hover:text-[#FF9500] transition-colors">
               Terms
             </a>
-            <a href="#" className="text-gray-400 hover:text-[#FFC300] transition-colors">
+            <a href="#" className="text-gray-400 hover:text-[#FF9500] transition-colors">
               Contact
             </a>
           </nav>
@@ -42,7 +42,7 @@ export default function Footer() {
               href="https://www.linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#007C89] transition-all duration-300 hover:scale-110"
+              className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#FF9500] transition-all duration-300 hover:scale-110"
             >
               <Linkedin className="w-5 h-5" />
             </a>
@@ -50,7 +50,7 @@ export default function Footer() {
               href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#007C89] transition-all duration-300 hover:scale-110"
+              className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#FF9500] transition-all duration-300 hover:scale-110"
             >
               <Instagram className="w-5 h-5" />
             </a>
@@ -58,7 +58,7 @@ export default function Footer() {
               href="https://www.twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#007C89] transition-all duration-300 hover:scale-110"
+              className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#FF9500] transition-all duration-300 hover:scale-110"
             >
               <Twitter className="w-5 h-5" />
             </a>

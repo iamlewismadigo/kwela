@@ -15,7 +15,7 @@ export default function About() {
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in-up">
-            <div className="w-14 h-14 bg-gradient-to-br from-[#007C89] to-[#00A3A3] rounded-xl flex items-center justify-center mb-6">
+            <div className="w-14 h-14 bg-gradient-to-br from-[#FF9500] to-[#FFB84D] rounded-xl flex items-center justify-center mb-6">
               <Users className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-[#0A0A0A] mb-4 font-heading">Who We Are</h3>
@@ -25,8 +25,8 @@ export default function About() {
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            <div className="w-14 h-14 bg-gradient-to-br from-[#FFC300] to-[#FFD700] rounded-xl flex items-center justify-center mb-6">
-              <Eye className="w-7 h-7 text-[#0A0A0A]" />
+            <div className="w-14 h-14 bg-gradient-to-br from-[#FF9500] to-[#FFA500] rounded-xl flex items-center justify-center mb-6">
+              <Eye className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-[#0A0A0A] mb-4 font-heading">Our Vision</h3>
             <p className="text-gray-600 leading-relaxed">
@@ -35,7 +35,7 @@ export default function About() {
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            <div className="w-14 h-14 bg-gradient-to-br from-[#007C89] to-[#FFC300] rounded-xl flex items-center justify-center mb-6">
+            <div className="w-14 h-14 bg-gradient-to-br from-[#FF9500] to-[#007C89] rounded-xl flex items-center justify-center mb-6">
               <Target className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-[#0A0A0A] mb-4 font-heading">Our Mission</h3>
